@@ -8,14 +8,14 @@ module.exports = {
       colors: {
         gray: {
           100: '#EBF1F5',
-          200: '#D9E3EA',
+          200: '#FF8EB1',
           300: '#C5D2DC',
           400: '#9BA9B4',
           500: '#707D86',
           600: '#55595F',
           700: '#33363A',
           800: '#25282C',
-          900: '#fff',
+          900: '#FFD5D5',
         },
         purple: {
           100: '#F4F4FF',
@@ -35,7 +35,7 @@ module.exports = {
         '1/1': '100%',
       },
       fontFamily: {
-        inter: ['Roboto', 'Noto Sans Hong Kong'],
+        Roboto: ['Roboto', 'Noto Sans Hong Kong'],
         'Roboto': ['"Roboto"', 'Noto Sans Hong Kong']
       },
       fontSize: {

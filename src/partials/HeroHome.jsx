@@ -4,7 +4,7 @@ import Modal from '../utils/Modal';
 import MainImage from '../images/ngo.png';
 
 function HeroHome() {
-  const [videoModalOpen, setVideoModalOpen] = useState(false);
+
 
   return (
     <section>
@@ -19,8 +19,8 @@ function HeroHome() {
           <svg className="max-w-full" width="564" height="552" viewBox="0 0 564 552" fill="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="illustration-02" x1="-3.766" y1="300.204" x2="284.352" y2="577.921" gradientUnits="userSpaceOnUse">
-                <stop stopColor="#5D5DFF" stopOpacity=".01" />
-                <stop offset="1" stopColor="#5D5DFF" stopOpacity=".32" />
+                <stop stopColor="#ef3a4d" stopOpacity=".01" />
+                <stop offset="1" stopColor="#ef3a4d" stopOpacity=".32" />
               </linearGradient>
             </defs>
             <path
@@ -46,17 +46,12 @@ function HeroHome() {
 
           {/* Hero image */}
           <div>
-            <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
+            <div className="relative flex justify-center items-center" data-aos="zoom-in-up" data-aos-delay="200">
               <img className="mx-auto" src={MainImage} width="1000" height="490" alt="Hero" />
               
             </div>
 
-            {/* Modal */}
-            <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
-              <div className="relative pb-9/16">
-                <iframe className="absolute w-full h-full" src="https://player.vimeo.com/video/174002812" title="Video" allowFullScreen></iframe>
-              </div>
-            </Modal>
+           
           </div>
         </div>
       </div>

@@ -34,10 +34,7 @@ module.exports = {
         '3/4': '75%',
         '1/1': '100%',
       },
-      fontFamily: {
-        Roboto: ['Roboto', 'Noto Sans Hong Kong'],
-        'Roboto': ['"Roboto"', 'Noto Sans Hong Kong']
-      },
+      
       fontSize: {
         xs: '0.75rem',
         sm: '0.875rem',

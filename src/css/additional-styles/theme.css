@@ -80,6 +80,10 @@
         transform: translate3d(0, -10px, 0);
     }
 
+   
+
+
+
     html:not(.no-js) [data-aos=fade-right] {
         -webkit-transform: translate3d(-10px, 0, 0);
         transform: translate3d(-10px, 0, 0);

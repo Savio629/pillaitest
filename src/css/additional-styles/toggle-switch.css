@@ -22,6 +22,9 @@
     @apply bg-purple-600;
 }
 
+.form-switch input[type="checkbox"]:checked+label {
+    @apply bg-red-600;
+}
 .form-switch input[type="checkbox"]:checked+label>span:first-child {
     left: 30px;
 }

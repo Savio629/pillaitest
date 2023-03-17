@@ -1,10 +1,15 @@
 import React from 'react';
-
+import Footer from './Footer';
+import PageIllustration from './PageIllustration';
+import Header from './Header';
 function Newsletter() {
-
   const bgColor = '#fc5353';
   return (
-    <section>
+    <section className='overflow-hidden'>
+      <Header/>
+      <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
+          <PageIllustration />
+        </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* CTA box */}
@@ -55,6 +60,7 @@ function Newsletter() {
         </div>
 
       </div>
+      <Footer/>
     </section>
   );
 }

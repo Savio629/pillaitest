@@ -3,10 +3,16 @@ import React from 'react';
 import FeatImage01 from '../images/features-03-image-01.png';
 import FeatImage02 from '../images/features-03-image-02.png';
 import FeatImage03 from '../images/features-03-image-03.png';
-
+import Footer from './Footer';
+import PageIllustration from './PageIllustration';
+import Header from './Header';
 function FeaturesZigzag() {
   return (
-    <section>
+    <section className='overflow-hidden'>
+      <Header/>
+      <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
+          <PageIllustration />
+        </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
 
@@ -132,7 +138,10 @@ function FeaturesZigzag() {
 
         </div>
       </div>
+      <Footer />
+
     </section>
+    
   );
 }
 

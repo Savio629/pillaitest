@@ -9,7 +9,7 @@ function FeaturesBlocks() {
   return (
     <section className='overflow-hidden'>
       <Header/>
-      <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
+      <div className="relative max-w-6xl mx-auto h-30 pointer-events-none" aria-hidden="true">
           <PageIllustration />
         </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -24,8 +24,8 @@ function FeaturesBlocks() {
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
 
-            {/* 1st item */}<div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-100	p-5 hover:scale-125">
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
+            {/* 1st item */}<div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-100	p-5 hover:scale-125 h-50">
+            <div className="relative flex flex-col items-center h-80" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
             <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src={FeatImage01} width="64" height="64" alt="Features 01" />
              
               <h4 className="h4 mb-2">Menstruation</h4>
@@ -33,8 +33,8 @@ function FeaturesBlocks() {
               <p>   </p>
             </div></div>
 
-            {/* 2nd item */}<div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-100	p-5 hover:scale-125">
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
+            {/* 2nd item */}<div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-100	p-5 hover:scale-125 h-50 ">
+            <div className="relative flex flex-col items-center h-80" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
             <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src={FeatImage02} width="64" height="64" alt="Features 02" />
               
               <h4 className="h4 mb-2">Mental Health</h4>
@@ -43,8 +43,8 @@ function FeaturesBlocks() {
             </div>
             
 
-            {/* 3rd item */}<div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-100	p-5 hover:scale-125">
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
+            {/* 3rd item */}<div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-100	p-5 hover:scale-125 h-50">
+            <div className="relative flex flex-col items-center h-80" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
             <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src={FeatImage03} width="64" height="64" alt="Features 02" />
              
               <h4 className="h4 mb-2">Sexual Health</h4>

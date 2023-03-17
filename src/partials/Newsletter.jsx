@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react';                      //contact us
 import Footer from './Footer';
 import PageIllustration from './PageIllustration';
 import Header from './Header';
@@ -27,7 +27,7 @@ function Newsletter() {
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-left lg:text-left lg:w-1/2">
               <h3 className="h3 text-white mb-2">Contact Us</h3>
-              <p className="text-purple-200 text-lg">Dsxkndjcudsx;z</p>
+              <p className="text-purple-200 text-lg">Feel free to contact us for any queries.</p>
             </div>
           
 
@@ -57,7 +57,7 @@ function Newsletter() {
 
                   <div className="flex flex-wrap -mx-3 mt-6">
                     <div className="w-full px-1">
-                      <button className="btn text-black bg-red-60 hover:bg-pink-700 w-full hover:scale-110" style={{ border: "1px solid black" }}>Send</button>
+                      <button className="btn text-black bg-rose-400 hover:bg-pink-700 w-full hover:scale-110" style={{ border: "1px solid black" }}>Send</button>
                     </div>
                   </div>
                   </div>

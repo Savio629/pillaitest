@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 10;
     padding: 0; 
     text-align:center;
     box-sizing: border-box;
@@ -36,8 +36,9 @@
     padding: 20px;
   }
   .logo {
-    padding-left: 60px;
+    padding-left: 30px;
     float : left;
     font-size: 3ch;
     font-weight: bolder;
+    margin-left: 10px;
   }

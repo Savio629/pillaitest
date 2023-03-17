@@ -6,7 +6,10 @@ export default function Nav(){
 
     return(
           <div className="navbar">
-            <div className="logo"></div>
+            <div className="logo">
+             
+            </div>
+
              <ul className="nav-links">
                 <Link to="/">Home</Link>
                 <Link to="/aboutus">About Us</Link>

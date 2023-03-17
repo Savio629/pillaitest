@@ -33,20 +33,23 @@ function FeaturesBlocks() {
               <p>   </p>
             </div></div>
 
-            {/* 2nd item */}
+            {/* 2nd item */}<div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-100	p-5 hover:scale-125">
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
             <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src={FeatImage02} width="64" height="64" alt="Features 02" />
               
               <h4 className="h4 mb-2">Mental Health</h4>
               <p className="text-lg text-gray-400 text-center">It is not the bruises on the body that hurt. It is the wounds of the heart and the scars on the mind.</p>
             </div>
+            </div>
+            
 
-            {/* 3rd item */}
+            {/* 3rd item */}<div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-100	p-5 hover:scale-125">
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
             <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src={FeatImage03} width="64" height="64" alt="Features 02" />
              
               <h4 className="h4 mb-2">Sexual Health</h4>
               <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+            </div>
             </div>
 
            

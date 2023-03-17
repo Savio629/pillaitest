@@ -8,7 +8,7 @@ function Newsletter() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* CTA box */}
-        <div style={{ background: `linear-gradient(to top, ${bgColor}, #f79c9c)` }} className="relative bg-red-400 py-10 px-8 md:py-16 md:px-12" data-aos="fade-up">
+        <div style={{ background: `linear-gradient(to top, ${bgColor}, #f79c9c)` }} className="relative bg-red-400 py-10 px-8 md:py-16 md:px-12" data-aos="fade-up" data-aos-delay="400">
 
     
           

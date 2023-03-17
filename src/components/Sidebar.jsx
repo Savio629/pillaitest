@@ -9,9 +9,9 @@ export default function Nav(){
             <div className="logo"></div>
              <ul className="nav-links">
                 <Link to="/">Home</Link>
-                <Link to="/calendar">About Us</Link>
-                <Link to="/cards">Categories</Link>
-                <Link to="/desktop-1">Contact Us</Link>
+                <Link to="/aboutus">About Us</Link>
+                <Link to="/category">Categories</Link>
+                <Link to="/contact">Contact Us</Link>
                 <Link to="/blog">Blog</Link>
              </ul>
           </div>

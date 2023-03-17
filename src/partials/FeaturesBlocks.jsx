@@ -2,10 +2,16 @@ import React from 'react';
 import FeatImage01 from '../images/calendar.png';
 import FeatImage02 from '../images/metalhealth.png';
 import FeatImage03 from '../images/sh.jpeg';
-
+import Footer from './Footer';
+import PageIllustration from './PageIllustration';
+import Header from './Header';
 function FeaturesBlocks() {
   return (
-    <section>
+    <section className='overflow-hidden'>
+      <Header/>
+      <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
+          <PageIllustration />
+        </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
@@ -48,6 +54,8 @@ function FeaturesBlocks() {
 
         </div>
       </div>
+      <Footer />
+
     </section>
   );
 }

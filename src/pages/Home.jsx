@@ -25,16 +25,16 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-        <FeaturesBlocks />
+        {/* <FeaturesBlocks />
         <FeaturesZigZag />
         <Testimonials />
-        <Newsletter />
+        <Newsletter /> */}
       </main>
-
+{/* 
       <Banner />
 
-      {/*  Site footer */}
-      <Footer />
+      
+      <Footer /> */}
     </div>
   );
 }

@@ -33,8 +33,8 @@ function Header() {
   return (
     <header className="absolute w-full z-30">
        
-      <nav className="hidden md:flex md:grow" >
-        <div className="flex grow justify-end flex-wrap items-center pt-4 pr-4">     
+      <nav className="hidden justify-between md:flex md:grow " >
+        <div className="flex grow    pt-8 ">     
         <Sidebar />
         </div>
       </nav>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
+import Footer from './Footer';
 
 import MainImage from '../images/ngo.png';
 
@@ -55,6 +56,8 @@ function HeroHome() {
           </div>
         </div>
       </div>
+
+      <Footer />
     </section>
   );
 }

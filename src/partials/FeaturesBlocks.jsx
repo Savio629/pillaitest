@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react';             //categories
 import FeatImage01 from '../images/calendar.png';
 import FeatImage02 from '../images/metalhealth.png';
 import FeatImage03 from '../images/sh.jpeg';
@@ -50,7 +50,7 @@ function FeaturesBlocks() {
             <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src={FeatImage03} width="64" height="64" alt="Features 02" />
              
               <h4 className="h4 mb-2">Sexual Health</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center">If we want our youth to grow up safe, healthy, and ready to succeed, then all youth need the knowledge and skills to make healthy decisions about sexual health.</p>
             </div>
             </div>
 

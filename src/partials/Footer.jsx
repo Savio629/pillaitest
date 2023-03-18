@@ -50,8 +50,6 @@ function Footer() {
               </li>
             </ul>
 
-            {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; Cruip.com. All rights reserved.</div>
 
           </div>
 

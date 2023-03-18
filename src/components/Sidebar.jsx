@@ -8,7 +8,7 @@ export default function Nav(){
     return(
           <div className="navbar">
              <div className="logo" data-aos="zoom-in-up" data-aos-delay="200">
-            <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src={Logo} width="120" height="120" alt="Features 01" />
+            <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src={Logo} width="200" height="200" alt="Features 01" />
                          
             </div >
             

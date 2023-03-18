@@ -40,7 +40,7 @@ function HeroHome() {
             We Are Here To Help
             </h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-            Feel free to conect and explore.
+            Feel free to conect and explore. You can look for a fun experience to track your mental health. 
             </p>
             
           </div>

@@ -22,16 +22,21 @@ function FeaturesBlocks() {
           </div>
 
           {/* Items */}
+
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
 
-            {/* 1st item */}<div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-100	p-5 hover:scale-125 h-50">
+
+          <a href="https://comfy-brigadeiros-6e6052.netlify.app/index.html" >
+           {/* 1st item */}<div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-100	p-5 hover:scale-125 h-50">
             <div className="relative flex flex-col items-center h-80" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
             <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src={FeatImage01} width="64" height="64" alt="Features 01" />
              
               <h4 className="h4 mb-2">Menstruation</h4>
-              <p className="text-lg text-gray-400 text-center">Track your cycle, Know more products, Know it All</p>
-              <p>   </p>
+              <p className="text-lg text-gray-400 text-center">Track your cycle, Know more products, Know it All. Have a relaxing period experience with ease. Know about new produts out there for YOU.</p>
+              <br></br>
+              <p className="text-lg text-purple-700 text-center   " >CLICK ME</p>  
             </div></div>
+            </a>
 
             <a href="https://luxury-travesseiro-efe981.netlify.app/" >
             {/* 2nd item */}<div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-100	p-5 hover:scale-125 h-50 ">
@@ -39,7 +44,9 @@ function FeaturesBlocks() {
             <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src={FeatImage02} width="64" height="64" alt="Features 02" />
               
               <h4 className="h4 mb-2">Mental Health</h4>
-              <p className="text-lg text-gray-400 text-center">It is not the bruises on the body that hurt. It is the wounds of the heart and the scars on the mind.</p>
+              <p className="text-lg text-gray-400 text-center">It is not the bruises on the body that hurt. It is the wounds of the heart and the scars on the mind. Keep a track of your moods and assess your health.</p>
+             <br></br>
+              <p className="text-lg text-purple-700 text-center   " >CLICK ME</p>     
             </div>
             </div>
             </a>
@@ -51,6 +58,9 @@ function FeaturesBlocks() {
              
               <h4 className="h4 mb-2">Sexual Health</h4>
               <p className="text-lg text-gray-400 text-center">If we want our youth to grow up safe, healthy, and ready to succeed, then all youth need the knowledge and skills to make healthy decisions about sexual health.</p>
+              <br></br>
+              <p className="text-lg text-purple-700 text-center   " >CLICK ME</p>  
+           
             </div>
             </div>
 

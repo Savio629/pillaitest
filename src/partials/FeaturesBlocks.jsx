@@ -33,7 +33,7 @@ function FeaturesBlocks() {
               <p>   </p>
             </div></div>
 
-            <a href="https://sunny-cocada-bfb97c.netlify.app/" >
+            <a href="https://luxury-travesseiro-efe981.netlify.app/" >
             {/* 2nd item */}<div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-100	p-5 hover:scale-125 h-50 ">
             <div className="relative flex flex-col items-center h-80" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
             <img className="max-w-full mx-auto md:max-w-none h-auto rounded-full" src={FeatImage02} width="64" height="64" alt="Features 02" />

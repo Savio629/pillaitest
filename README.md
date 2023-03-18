@@ -29,7 +29,6 @@
 
 ## Technologies Used
 - MERN Stack
-- React
 - Photoshop
 - Git Github
 - Figma
